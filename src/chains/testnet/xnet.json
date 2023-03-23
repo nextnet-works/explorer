@@ -1,0 +1,18 @@
+{
+    "chain_name": "xnet",
+    "coingecko": "xnet",
+    "api": ["http://54.177.136.249:1317"],
+    "rpc": ["http://54.177.136.249:26657"],
+    "sdk_version": "0.46.7",
+    "coin_type": "226",
+    "addr_prefix": "xnet",    
+    "logo": "/logos/xnet.jpg",
+    "assets": [{
+        "base": "uxnet",
+        "symbol": "XNET",
+        "exponent": "6",
+        "coingecko_id": "xnet", 
+        "logo": "/logos/xnet.jpg"
+    }]
+
+}

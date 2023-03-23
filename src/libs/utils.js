@@ -458,8 +458,9 @@ export function formatTokenAmount(tokenAmount, decimals = 2, tokenDenom = 'uatom
 }
 
 export function isTestnet() {
-  return (window.location.hostname.startsWith('testnet')
-    || window.location.search.indexOf('testnet') > -1)
+  return true
+  // return (window.location.hostname.startsWith('testnet')
+  //   || window.location.search.indexOf('testnet') > -1)
 }
 
 export function formatToken(token, IBCDenom = {}, decimals = 2, withDenom = true) {
